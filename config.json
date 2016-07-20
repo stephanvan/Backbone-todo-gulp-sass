@@ -1,0 +1,40 @@
+{
+    "base": {
+        "src": "src/",
+        "build": "build/",
+        "test": "test/",
+        "vendor": "vendor/"
+    },
+    "path": {
+        "sass": "assets/scss/",
+        "views": "views/",
+        "css": "assets/css/",
+        "images": "assets/img/",
+        "js": "assets/js/"
+    },
+    "files": {
+        "index": "index.html",
+        "html": "**/*.html",
+        "sassAll": "**/*.scss",
+        "js": "{,*/,*/*/}*.js",
+        "images": "{,*/,*/*/}*.{png,jpg,jpeg,gif}"
+    },
+    "vendor":{
+        "js": [
+            "vendor/jquery/dist/jquery.js",
+            "vendor/underscore/underscore.js",
+            "vendor/backbone/backbone.js",
+            "vendor/backbone-localstorage/backbone.localStorage.js"
+        ],
+        "css": [],
+        "assets": []
+    },
+    "env": {
+        "prod": {
+
+        },
+        "dev": {
+
+        }
+    }
+}

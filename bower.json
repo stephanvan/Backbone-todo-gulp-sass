@@ -1,0 +1,11 @@
+{
+  "name": "my-todo",
+  "dependencies": {
+    "backbone": "~1.x.x",
+    "backbone-localstorage": "0.3.2",
+    "jquery": "~2.1.0"
+  },
+  "ignore": [
+    "package.json"
+  ]
+}
